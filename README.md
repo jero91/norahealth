@@ -7,7 +7,8 @@ I connected my MySQL server to Power BI and built the charts.
 
 ● Tools used.
 
-MySQL
+MySQL   
+
 PowerBI
 
 ● Instructions to reproduce the environment (if applicable).
