@@ -16,6 +16,6 @@ SELECT
     
 FROM patients p
 LEFT JOIN visits v ON p.id = v.patient_id
-LEFT JOIN measurements m ON p.id = m.visit_id
+LEFT JOIN measurements m ON v.id = m.visit_id
 
 GROUP BY p.id, p.name, p.birth_date;
